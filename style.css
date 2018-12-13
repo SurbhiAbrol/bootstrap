@@ -1,0 +1,51 @@
+ 
+body{
+    height: 100%;
+    width: 100%;
+    color: brown;
+    overflow-x: hidden;    
+}
+img{
+    max-width: 100%;
+
+}
+
+/* cover */
+#cover{
+    background: #222 url("img/canvas-81504_960_720.jpg")  no-repeat;
+    background-size: cover;
+    color: saddlebrown;
+    height: 900px;
+    display: flex;
+    text-align: center;
+}
+#cover-caption{
+    width: 100%;
+}
+nav{
+    width: 100%;
+}
+section{
+    padding: 3rem 0;
+}
+p{
+    font-family: 'standard', cursive;
+}
+
+#about{
+    background: url('img/a666195f717c6754ed369ee964be0bc0.jpg')  no-repeat;
+    background-size: cover;
+    width: 1570px;
+    padding: 1.875rem;
+    height: 800px;
+    margin-top: -75px;
+}
+about-text{
+    background: rgb(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+.footer {
+    margin: 0px auto;
+
+}
